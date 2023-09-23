@@ -165,7 +165,7 @@ namespace Cdm.Authentication.OAuth2
         /// </summary>
         /// <param name="cancellationToken">Cancellation token to cancel operation.</param>
         /// <exception cref="AccessTokenRequestException">If access token cannot be granted.</exception>
-        public async Task<AccessTokenResponse> GetOrRefreshTokenAsync(
+        public virtual async Task<AccessTokenResponse> GetOrRefreshTokenAsync(
             CancellationToken cancellationToken = default)
         {
             if (ShouldRefreshToken())
