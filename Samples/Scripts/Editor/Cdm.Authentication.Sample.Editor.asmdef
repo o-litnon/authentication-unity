@@ -1,0 +1,19 @@
+{
+    "name": "Cdm.Authentication.Sample.Editor",
+    "rootNamespace": "Cdm.Authentication.Sample.Editor",
+    "references": [
+        "GUID:3413dadb4adff1a408c25509ca9ad129",
+        "GUID:239ac802c65e05e4faa823545eb26e0d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

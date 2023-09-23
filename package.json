@@ -8,6 +8,7 @@
   "description": "Simple OAuth2 client for Unity.",
   "hideInEditor": false,
   "dependencies": {
-    "com.unity.nuget.newtonsoft-json": "2.0.2"
+    "com.unity.nuget.newtonsoft-json": "2.0.2",
+    "com.unity.textmeshpro": "3.0.6"
   }
 }
