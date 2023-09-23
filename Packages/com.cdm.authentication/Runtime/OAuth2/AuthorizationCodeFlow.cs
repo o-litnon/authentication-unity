@@ -45,7 +45,7 @@ namespace Cdm.Authentication.OAuth2
         /// </summary>
         public Configuration configuration { get; }
 
-        protected AccessTokenResponse accessTokenResponse { get; private set; }
+        protected AccessTokenResponse accessTokenResponse { get; set; }
         protected HttpClient httpClient { get; }
 
         protected AuthorizationCodeFlow(Configuration configuration)
